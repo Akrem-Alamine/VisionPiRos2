@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (visionPiRos2) JobQueued: {'identifier': 'visionPiRos2', 'dependencies': OrderedDict()}
+[0.000232] (visionPiRos2) JobStarted: {'identifier': 'visionPiRos2'}
+[0.099455] (-) TimerEvent: {}
+[0.199722] (-) TimerEvent: {}
+[0.299993] (-) TimerEvent: {}
+[0.400237] (-) TimerEvent: {}
+[0.500508] (-) TimerEvent: {}
+[0.600834] (-) TimerEvent: {}
+[0.701124] (-) TimerEvent: {}
+[0.801390] (-) TimerEvent: {}
+[0.901661] (-) TimerEvent: {}
+[1.001917] (-) TimerEvent: {}
+[1.102185] (-) TimerEvent: {}
+[1.202450] (-) TimerEvent: {}
+[1.302704] (-) TimerEvent: {}
+[1.335615] (visionPiRos2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/visionPiRos2', 'build', '--build-base', '/home/alamino/ros2_ws/build/visionPiRos2/build', 'install', '--record', '/home/alamino/ros2_ws/build/visionPiRos2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alamino/ros2_ws/src/visionPiRos2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alamino', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alamino', 'OLDPWD': '/home/alamino/ros2_ws', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '5380', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'COLCON_PREFIX_PATH': '/home/alamino/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'alamino', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alamino', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/alamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/3258,unix/pop-os:/tmp/.ICE-unix/3258', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e6f23b44_174a_4cf3_824a_cb06c5907566', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alamino/ros2_ws/install/visionPiRos2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alamino/ros2_ws/build/visionPiRos2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/alamino/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/alamino/ros2_ws/build/visionPiRos2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages:/home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.402816] (-) TimerEvent: {}
+[1.503037] (-) TimerEvent: {}
+[1.603308] (-) TimerEvent: {}
+[1.703597] (-) TimerEvent: {}
+[1.803894] (-) TimerEvent: {}
+[1.888582] (visionPiRos2) StdoutLine: {'line': b'running egg_info\n'}
+[1.889317] (visionPiRos2) StdoutLine: {'line': b'creating ../../build/visionPiRos2/visionPiRos2.egg-info\n'}
+[1.904010] (-) TimerEvent: {}
+[1.910798] (visionPiRos2) StdoutLine: {'line': b'writing ../../build/visionPiRos2/visionPiRos2.egg-info/PKG-INFO\n'}
+[1.911025] (visionPiRos2) StdoutLine: {'line': b'writing dependency_links to ../../build/visionPiRos2/visionPiRos2.egg-info/dependency_links.txt\n'}
+[1.911255] (visionPiRos2) StdoutLine: {'line': b'writing entry points to ../../build/visionPiRos2/visionPiRos2.egg-info/entry_points.txt\n'}
+[1.911614] (visionPiRos2) StdoutLine: {'line': b'writing requirements to ../../build/visionPiRos2/visionPiRos2.egg-info/requires.txt\n'}
+[1.911937] (visionPiRos2) StdoutLine: {'line': b'writing top-level names to ../../build/visionPiRos2/visionPiRos2.egg-info/top_level.txt\n'}
+[1.912008] (visionPiRos2) StdoutLine: {'line': b"writing manifest file '../../build/visionPiRos2/visionPiRos2.egg-info/SOURCES.txt'\n"}
+[1.960095] (visionPiRos2) StdoutLine: {'line': b"reading manifest file '../../build/visionPiRos2/visionPiRos2.egg-info/SOURCES.txt'\n"}
+[1.961092] (visionPiRos2) StdoutLine: {'line': b"writing manifest file '../../build/visionPiRos2/visionPiRos2.egg-info/SOURCES.txt'\n"}
+[1.961323] (visionPiRos2) StdoutLine: {'line': b'running build\n'}
+[1.961454] (visionPiRos2) StdoutLine: {'line': b'running build_py\n'}
+[1.961632] (visionPiRos2) StdoutLine: {'line': b'creating /home/alamino/ros2_ws/build/visionPiRos2/build\n'}
+[1.961780] (visionPiRos2) StdoutLine: {'line': b'creating /home/alamino/ros2_ws/build/visionPiRos2/build/lib\n'}
+[1.961924] (visionPiRos2) StdoutLine: {'line': b'creating /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2\n'}
+[1.962080] (visionPiRos2) StdoutLine: {'line': b'copying visionPiRos2/__init__.py -> /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2\n'}
+[1.962198] (visionPiRos2) StdoutLine: {'line': b'copying visionPiRos2/object_detection_node.py -> /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2\n'}
+[1.962301] (visionPiRos2) StdoutLine: {'line': b'copying visionPiRos2/gui.py -> /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2\n'}
+[1.962440] (visionPiRos2) StdoutLine: {'line': b'running install\n'}
+[1.971043] (visionPiRos2) StdoutLine: {'line': b'running install_lib\n'}
+[1.995346] (visionPiRos2) StdoutLine: {'line': b'creating /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2\n'}
+[1.995702] (visionPiRos2) StdoutLine: {'line': b'copying /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2/__init__.py -> /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2\n'}
+[1.995935] (visionPiRos2) StdoutLine: {'line': b'copying /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2/object_detection_node.py -> /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2\n'}
+[1.996070] (visionPiRos2) StdoutLine: {'line': b'copying /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2/gui.py -> /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2\n'}
+[1.996428] (visionPiRos2) StdoutLine: {'line': b'byte-compiling /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2/__init__.py to __init__.cpython-310.pyc\n'}
+[1.996666] (visionPiRos2) StdoutLine: {'line': b'byte-compiling /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2/object_detection_node.py to object_detection_node.cpython-310.pyc\n'}
+[1.997257] (visionPiRos2) StdoutLine: {'line': b'byte-compiling /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2/gui.py to gui.cpython-310.pyc\n'}
+[1.999050] (visionPiRos2) StdoutLine: {'line': b'running install_data\n'}
+[1.999343] (visionPiRos2) StdoutLine: {'line': b'copying package.xml -> /home/alamino/ros2_ws/install/visionPiRos2/share/visionPiRos2\n'}
+[1.999572] (visionPiRos2) StdoutLine: {'line': b'creating /home/alamino/ros2_ws/install/visionPiRos2/share/visionPiRos2/launch\n'}
+[1.999740] (visionPiRos2) StdoutLine: {'line': b'copying launch/vision_launch.py -> /home/alamino/ros2_ws/install/visionPiRos2/share/visionPiRos2/launch\n'}
+[1.999833] (visionPiRos2) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.004083] (-) TimerEvent: {}
+[2.026889] (visionPiRos2) StdoutLine: {'line': b'Copying ../../build/visionPiRos2/visionPiRos2.egg-info to /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2-0.0.1-py3.10.egg-info\n'}
+[2.028160] (visionPiRos2) StdoutLine: {'line': b'running install_scripts\n'}
+[2.104195] (-) TimerEvent: {}
+[2.120388] (visionPiRos2) StdoutLine: {'line': b'Installing gui script to /home/alamino/ros2_ws/install/visionPiRos2/lib/visionPiRos2\n'}
+[2.120681] (visionPiRos2) StdoutLine: {'line': b'Installing object_detection_node script to /home/alamino/ros2_ws/install/visionPiRos2/lib/visionPiRos2\n'}
+[2.120990] (visionPiRos2) StdoutLine: {'line': b"writing list of installed files to '/home/alamino/ros2_ws/build/visionPiRos2/install.log'\n"}
+[2.166509] (visionPiRos2) CommandEnded: {'returncode': 0}
+[2.177982] (visionPiRos2) JobEnded: {'identifier': 'visionPiRos2', 'rc': 0}
+[2.178819] (-) EventReactorShutdown: {}

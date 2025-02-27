@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/visionPiRos2/visionPiRos2.egg-info
+writing ../../build/visionPiRos2/visionPiRos2.egg-info/PKG-INFO
+writing dependency_links to ../../build/visionPiRos2/visionPiRos2.egg-info/dependency_links.txt
+writing entry points to ../../build/visionPiRos2/visionPiRos2.egg-info/entry_points.txt
+writing requirements to ../../build/visionPiRos2/visionPiRos2.egg-info/requires.txt
+writing top-level names to ../../build/visionPiRos2/visionPiRos2.egg-info/top_level.txt
+writing manifest file '../../build/visionPiRos2/visionPiRos2.egg-info/SOURCES.txt'
+reading manifest file '../../build/visionPiRos2/visionPiRos2.egg-info/SOURCES.txt'
+writing manifest file '../../build/visionPiRos2/visionPiRos2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alamino/ros2_ws/build/visionPiRos2/build
+creating /home/alamino/ros2_ws/build/visionPiRos2/build/lib
+creating /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2
+copying visionPiRos2/__init__.py -> /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2
+copying visionPiRos2/object_detection_node.py -> /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2
+copying visionPiRos2/gui.py -> /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2
+running install
+running install_lib
+creating /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2
+copying /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2/__init__.py -> /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2
+copying /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2/object_detection_node.py -> /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2
+copying /home/alamino/ros2_ws/build/visionPiRos2/build/lib/visionPiRos2/gui.py -> /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2
+byte-compiling /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2/object_detection_node.py to object_detection_node.cpython-310.pyc
+byte-compiling /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2/gui.py to gui.cpython-310.pyc
+running install_data
+copying package.xml -> /home/alamino/ros2_ws/install/visionPiRos2/share/visionPiRos2
+creating /home/alamino/ros2_ws/install/visionPiRos2/share/visionPiRos2/launch
+copying launch/vision_launch.py -> /home/alamino/ros2_ws/install/visionPiRos2/share/visionPiRos2/launch
+running install_egg_info
+Copying ../../build/visionPiRos2/visionPiRos2.egg-info to /home/alamino/ros2_ws/install/visionPiRos2/lib/python3.10/site-packages/visionPiRos2-0.0.1-py3.10.egg-info
+running install_scripts
+Installing gui script to /home/alamino/ros2_ws/install/visionPiRos2/lib/visionPiRos2
+Installing object_detection_node script to /home/alamino/ros2_ws/install/visionPiRos2/lib/visionPiRos2
+writing list of installed files to '/home/alamino/ros2_ws/build/visionPiRos2/install.log'

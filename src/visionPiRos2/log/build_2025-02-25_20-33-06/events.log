@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (-) JobUnselected: {'identifier': 'visionPiRos2'}
+[0.000730] (-) EventReactorShutdown: {}
